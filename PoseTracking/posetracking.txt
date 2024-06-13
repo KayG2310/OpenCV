@@ -1,0 +1,2 @@
+one change is mp.solutions.pose 
+all other things are same as hand tracking

@@ -108,16 +108,19 @@ while True:
         vol = np.interp(length_of_line,[50,250], [min_volume,max_volume])
         # volume.SetMasterVolumeLevel(vol,None)
         # Setting volume directly
+
         if 0 <= vol <= 100:
             volume_level = vol / 10
             script = f"set volume output volume {volume_level * 10}"
             subprocess.run(["osascript", "-e", script])
+            bar_x_start, bar_x_end = 30, 60
+            bar_y_start, bar_y_end = 400, 300  # Smaller height for the volume bar
 
-
-
-
-
-
+            vol_height = int(np.interp(vol, [min_volume, max_volume], [bar_y_start, bar_y_end]))
+            cv2.rectangle(img, (bar_x_start, bar_y_start), (bar_x_end, bar_y_end), (55, 55, 200),
+                          3)  # Outer frame of the bar
+            cv2.rectangle(img, (bar_x_start, vol_height), (bar_x_end, bar_y_start), (55, 55, 200), cv2.FILLED)
+            # cv2.putText(img, f'{int(volume_level)}%',(40,60),cv2.FONT_HERSHEY_PLAIN, 1, (0,0,0),2)
 
     current_time = time.time()
     fps = str(int(1 / (current_time - previous_time)))

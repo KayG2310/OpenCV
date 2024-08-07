@@ -19,8 +19,11 @@ Along with the project files, this repository also contains the simple base code
 These base codes might help you in case you do not want to dive into a project yet but just want to have a look at the tracking and mesh. <br>
 These files have been made on PyCharm and on macOS so some of the libraries might require a Windows Substitute.
 <h4>Volume Gesture Control</h4>
-Demonstration 
-![Demonstration of Gesture Volume Control](volume.jpeg)
+Demonstration <br>
+![Demonstration of Gesture Volume Control](volume.jpeg) <br>
+![WhatsApp Image 2024-08-07 at 16 05 28](https://github.com/user-attachments/assets/09c709a2-7fb3-4074-ab31-9315315f7ef6)
+<br>
+
 Modules used :
 <ul>
   <li>cv2 - for video capturing </li>

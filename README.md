@@ -20,8 +20,7 @@ These base codes might help you in case you do not want to dive into a project y
 These files have been made on PyCharm and on macOS so some of the libraries might require a Windows Substitute.
 <h4>Volume Gesture Control</h4>
 Demonstration <br>
-![Demonstration of Gesture Volume Control](volume.jpeg) <br>
-![WhatsApp Image 2024-08-07 at 16 05 28](https://github.com/user-attachments/assets/09c709a2-7fb3-4074-ab31-9315315f7ef6)
+![volume control](https://github.com/user-attachments/assets/4da2713a-f99b-403b-a263-6cea842c316e)
 <br>
 
 Modules used :

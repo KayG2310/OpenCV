@@ -33,7 +33,10 @@ Modules used :
   <li>subprocess - for system volume controlling (mac compatible)</li>
   <li>pycaw - same function as subprocess but for Windows</li>
 </ul>
+
 <h4>Virtual Painter</h4>
+Demonstration link : https://drive.google.com/file/d/1JiWIckO0O9IKo-FqsaOKZMcVuh7b7oZV/view?usp=sharing
+<br>
 Modules used :
 <ul>
   <li>cv2 - for video capturing </li>
@@ -42,6 +45,8 @@ Modules used :
   <li>MediaPipe - for hand tracking</li>
 </ul>
 <h4>Virtual Mouse</h4>
+Demonstration link : https://drive.google.com/file/d/1fkDqkCY6jl1uSu561WdmPVAB_I1ZXJ40/view?usp=sharing
+<br>
 Modules used :
 <ul>
   <li>cv2 - for video capturing </li>
@@ -53,6 +58,8 @@ Modules used :
   <li>autopy - same function as pyautogui but for Windows</li>
 </ul>
 <h4>Finger Counter</h4>
+Demonstration link : https://drive.google.com/file/d/1hhNrz33CHRK39Izt7TZ8BR_HqeNOMuF1/view?usp=sharing
+<br>
 Modules used :
 <ul>
   <li>cv2 - for video capturing </li>

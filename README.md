@@ -20,7 +20,7 @@ These base codes might help you in case you do not want to dive into a project y
 These files have been made on PyCharm and on macOS so some of the libraries might require a Windows Substitute.
 <h4>Volume Gesture Control</h4>
 Demonstration 
-![Demonstration of Gesture Volume Control](https://drive.google.com/file/d/14Bxbk6fifWkWunchRhiwzt_oFapz_HwY/view?usp=sharing)
+![Demonstration of Gesture Volume Control](volume.jpeg)
 Modules used :
 <ul>
   <li>cv2 - for video capturing </li>
